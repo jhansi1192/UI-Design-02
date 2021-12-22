@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: "Roboto";
+}
+
+.bg-elements {
+    padding: 20px;
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+.heading {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.moon {
+    width: 20px;
+    height: auto;
+}
+
+.toggle {
+    cursor: pointer;
+    background-color: white;
+    border: none
+}
+
+.dark .toggle {
+    color: #D3D3D3;
+}
+
+.dark .dropdown .form {
+    background-color: black;
+}
+
+
+.mode-container {
+    display: flex;
+    align-items: center;
+}
+
+.mode {
+    font-size: 15px;
+}
+
+.bg {
+    background-color: black;
+}
+
+.bg-container {
+    background-color: #f0ffff;
+
+    min-height: 100vh;
+}
+
+.input-icons {
+    display: inline-block;
+    position: relative
+}
+
+.input-icons::after {
+    font-family: 'FontAwesome';
+    content: '\f274';
+    position: absolute;
+    right: 6px;
+
+}
+
+.icon {
+    width: 3px;
+    height: 2px;
+    margin: 5px;
+    align-items: center;
+    padding: 2px;
+}
+
+
+.input-ele {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.input-ele i {
+    position: absolute;
+    margin: 5px;
+    color: #b4bbb6;
+    width: 20px;
+
+}
+
+.field-ele {
+    width: 50%;
+    height: 30px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    text-align: center;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+.dropdown {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+::placeholder {
+    color: #808080;
+    font-size: 7px;
+
+}
+
+@media screen and (min-width:568px) {
+    ::placeholder {
+        color: #808080;
+        font-size: 14px;
+
+
+    }
+}
+
+.form {
+    margin: 12px;
+    float: left;
+    font-size: 10px;
+    height: 50%;
+    border-width: 0px;
+    padding: 5px;
+    color: #808080;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 2px #888888;
+    box-sizing: border-box;
+
+
+}
+
+
+.item {
+    margin: 2px;
+}
+
+.card-container {
+    background-color: white;
+    height: 300px;
+    width: 21%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin: 12px;
+}
+
+@media screen and (min-width:576px) {
+    .card-container {
+        width: 25%;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .card-container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+
+    .card-container {
+        width: 55%;
+    }
+}
+
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.country-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:576px) {
+    .country-container {
+        justify-content: center;
+    }
+}
+
+.bottom-container {
+    margin-bottom: 12px;
+
+
+}
+
+
+.image {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+
+.name {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.pop {
+    font-size: 12px;
+}
+
+@media screen and (min-width:567px) {
+    .pop {
+        font-size: 20px;
+    }
+}
+
+.text {
+    padding: 1px;
+}
